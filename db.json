@@ -1,0 +1,78 @@
+{
+  "type": [
+    {
+      "id": 1,
+      "name": "b2c"
+    },
+    {
+      "id": 2,
+      "name": "c2c"
+    },
+    {
+      "id": 3,
+      "name": "confirm"
+    },
+    {
+      "id": 4,
+      "name": "once"
+    },
+    {
+      "id": 5,
+      "name": "transfer"
+    }
+  ],
+  "transport": [
+    {
+      "id": 1,
+      "name": "webPush"
+    },
+    {
+      "id": 2,
+      "name": "email"
+    }
+  ],
+  "event": [
+    {
+      "id": 1,
+      "name": "someEvent"
+    },
+    {
+      "id": 2,
+      "name": "otherEvent"
+    },
+    {
+      "id": 3,
+      "name": "anotherEvent"
+    }
+  ],
+  "segment": [
+    {
+      "id": 1,
+      "name": "someSegment"
+    },
+    {
+      "id": 2,
+      "name": "otherSegment"
+    },
+    {
+      "id": 3,
+      "name": "anotherSegment"
+    }
+  ],
+  "campaigns": [
+    {
+      "id": 1,
+      "name": "someCampaign",
+      "eventIds": [
+        1,
+        2
+      ],
+      "segmentIds": [
+        1,
+        2
+      ],
+      "transportId": 1,
+      "typeId": 1
+    }
+  ]
+}
